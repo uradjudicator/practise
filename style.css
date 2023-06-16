@@ -51,13 +51,14 @@ body {
     border-radius: 3px;
     transition: 0.4s;
 }
-.templates .btn button:hover{
+
+.templates .btn button:hover {
     color: #0066FF;
     background-color: #FFFFFF;
 }
 
 /* wrapper */
-.templates .wrapper{
+.templates .wrapper {
     display: flex;
     gap: 20px;
 }
@@ -87,4 +88,82 @@ body {
     line-height: 24px;
     margin: 0 29px 20px 20px;
     text-align: left;
+}
+
+/* customization */
+.customization {
+    padding: 150px 0 50px;
+}
+
+.customization .container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.customization .container .custom {
+    display: flex;
+    justify-content: center;
+    padding: 10px 8px;
+    background: #E6EBFF;
+    width: 133px;
+    border-radius: 3px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.customization .container .custom img {
+    /* margin-right: 10px; */
+    width: 16px;
+    height: 14.5px;
+}
+
+.customization .container .custom p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0066FF;
+}
+
+.customization .container h2 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0 30px;
+}
+
+.customization .container .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* cards */
+.customization .container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.customization .container .cards .block {
+    background-color: #EEF1F7;
+    height: 50px;
+    padding: 17px 10px;
+}
+
+.customization .container .cards .block .displays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.customization .container .cards .block .displays p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
