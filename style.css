@@ -50,6 +50,7 @@ body {
     border: 2px solid #0066FF;
     border-radius: 3px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .templates .btn button:hover {
@@ -171,21 +172,22 @@ body {
 /* about-stories */
 .about-stories {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
-    border-radius: 15.8024px;
 }
 
 .about-stories .container {
     width: 1300px;
     margin: 0 auto;
+    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
+    border-radius: 15.8024px;
 }
 
 .about-stories .container .wrapper {
     display: flex;
 }
 
+/* left */
+
 .about-stories .container .wrapper .story {
-    /* card */
     padding: 14.5px 17px 17px 16px;
     width: 191.21px;
     background-color: #EEF1F7;
@@ -216,18 +218,10 @@ body {
     color: #9CA0AC;
 }
 
-.about-stories .container .wrapper .story .menu {
-    /* display: flex; */
-    /* flex-direction: column; */
-    background-color: blueviolet;
-
-}
-
 .about-stories .container .wrapper .story .menu-items {
     display: flex;
     gap: 12.25px;
     margin: 0 67px 20px 0px;
-    /* background-color: #0066FF; */
 }
 
 
@@ -244,4 +238,75 @@ body {
     line-height: 13px;
     color: #9CA0AC;
     border: 1px 100px solid #b3ff00;
+    margin: 39px 0 15.8px;
+}
+
+.about-stories .container .wrapper .story .menu .other {
+    font-weight: 500;
+    font-size: 11.0617px;
+    line-height: 13px;
+    color: #9CA0AC;
+    margin: 39.5px 0 20px;
+}
+
+.about-stories .container .wrapper .story .bottom {
+    display: flex;
+    margin: 240px 0 0px;
+    align-items: center;
+    gap: 7.9px;
+    color: #000;
+}
+
+.about-stories .container .wrapper .story .bottom p {
+    padding: 19.75px 0 19.75px;
+    font-weight: 500;
+    font-size: 12.642px;
+    line-height: 15px
+}
+
+.about-stories .container .wrapper .story .bottom p .modification {
+    font-weight: 400;
+    font-size: 11.0617px;
+    line-height: 13px;
+    color: #9CA0AC;
+}
+
+.about-stories .container .wrapper .story .bottom img {
+    width: 37.93px;
+    height: 37.93px;
+}
+
+/* right */
+.right {
+    padding: 42px 32px 0 26px;
+    background: #fff;
+}
+
+.right h2 {
+    font-weight: 900;
+    font-size: 24.2327px;
+    line-height: 28px;
+    margin-bottom: 42.5px;
+}
+
+.right h2 .changing {
+    font-weight: 600;
+}
+
+.right .cards {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.right .cards .menu {
+    display: flex;
+    gap: 4.3px;
+    font-weight: 400;
+    font-size: 13.8473px;
+    line-height: 16px;
+    color: #9CA0AC;
+}
+.right .recipe{
+    display: flex;
 }
