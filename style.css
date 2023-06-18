@@ -171,14 +171,15 @@ body {
 
 /* about-stories */
 .about-stories {
-    background-color: #FFFFFF;
+    width: 1300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
+    border-radius: 15.8024px;
 }
 
 .about-stories .container {
     width: 1300px;
     margin: 0 auto;
-    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
-    border-radius: 15.8024px;
 }
 
 .about-stories .container .wrapper {
@@ -297,6 +298,11 @@ body {
     display: flex;
     gap: 25px;
     margin-bottom: 10px;
+    border: 1px solid #9CA0AC;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .right .cards .menu {
@@ -309,4 +315,31 @@ body {
 }
 .right .recipe{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #9CA0AC;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 36px;
+}
+.right .recipe h2{
+    margin: auto 0;
+}
+.right .recipe .btn{
+    display: flex;
+    padding: 10.58px;
+    width: 113px;
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    background: #2E3238;
+    margin-right: 30px;
+    gap: 10.5px;
+}
+.right .images{
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
 }
