@@ -113,7 +113,6 @@ body {
 }
 
 .customization .container .custom img {
-    /* margin-right: 10px; */
     width: 16px;
     height: 14.5px;
 }
@@ -171,18 +170,17 @@ body {
 
 /* about-stories */
 .about-stories {
-    width: 1300px;
     margin: 0 auto;
-    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
     border-radius: 15.8024px;
 }
 
 .about-stories .container {
-    width: 1300px;
+    width: 1500px;
     margin: 0 auto;
 }
 
 .about-stories .container .wrapper {
+    box-shadow: 0px 0px 31.6049px rgba(0, 0, 0, 0.2);
     display: flex;
 }
 
@@ -337,6 +335,7 @@ body {
     background: #2E3238;
     margin-right: 30px;
     gap: 10.5px;
+    color: #fff;
 }
 .right .images{
     display: flex;
